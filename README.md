@@ -1,6 +1,4 @@
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+# Welcome to the Minebrac website
+This repository is a test site for the famous Minecraft server: Minebrac.
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
-
-Le site est a l'adresse suivante : https://minebrac.github.io/MinebracSiteDemo/
+The site can be found at the following address: https://minebrac.github.io/MinebracSiteDemo/
