@@ -1,1 +1,161 @@
-<h1>This is a demo site for the famous Minecraft server called Minebrac</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minebrac - Minecraft Server</title>
+
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+			font-family:Arial, sans-serif;
+		}
+
+		body{
+			background:linear-gradient(180deg,#10131a,#1b2433);
+			color:white;
+		}
+
+		header{
+			height:100vh;
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			text-align:center;
+			padding:20px;
+		}
+
+		h1{
+			font-size:80px;
+			color:#42a5ff;
+			text-shadow:0 0 20px rgba(66,165,255,.6);
+		}
+
+		.subtitle{
+			font-size:24px;
+			margin:20px 0;
+			color:#cccccc;
+		}
+
+		.join-btn{
+			background:#42a5ff;
+			color:white;
+			padding:15px 35px;
+			border:none;
+			border-radius:10px;
+			font-size:20px;
+			cursor:pointer;
+			transition:.3s;
+			text-decoration:none;
+		}
+
+		.join-btn:hover{
+			transform:scale(1.08);
+			background:#63b6ff;
+		}
+
+		section{
+			padding:80px 10%;
+		}
+
+		.cards{
+			display:grid;
+			grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+			gap:20px;
+		}
+
+		.card{
+			background:#202938;
+			padding:30px;
+			border-radius:15px;
+			box-shadow:0 0 15px rgba(0,0,0,.3);
+		}
+
+		.card h3{
+			color:#42a5ff;
+			margin-bottom:10px;
+		}
+
+		footer{
+			padding:30px;
+			text-align:center;
+			background:#0d1118;
+			color:#888;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+
+		<h1>MINEBRAC</h1>
+
+		<p class="subtitle">
+			The Minecraft server where adventure begins.
+		</p>
+
+		<a class="join-btn" href="#">
+			Join Now
+		</a>
+
+	</header>
+
+
+	<section>
+
+		<h2 style="margin-bottom:40px;text-align:center;">
+			Why Play on Minebrac?
+		</h2>
+
+		<div class="cards">
+
+			<div class="card">
+				<h3>⚔️ Unique Survival</h3>
+				<p>
+					Explore, build, and progress through a world full of adventures.
+				</p>
+			</div>
+
+			<div class="card">
+				<h3>👥 Active Community</h3>
+				<p>
+					Join hundreds of passionate players.
+				</p>
+			</div>
+
+			<div class="card">
+				<h3>🚀 Regular Events</h3>
+				<p>
+					Enjoy events and rewards all year long.
+				</p>
+			</div>
+
+		</div>
+
+	</section>
+
+
+	<section style="text-align:center;">
+
+		<h2>SERVER IP</h2>
+
+		<h1 style="font-size:50px;margin-top:20px;">
+			play.minebrac.com
+		</h1>
+
+	</section>
+
+
+	<footer>
+
+		© 2026 Minebrac - All Rights Reserved
+
+	</footer>
+
+</body>
+</html>
